@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import { Link } from "react-router-dom";
-import Menu from './routes/Menu';
+// import Menu from './routes/Menu';
 import './Theloai.css'
-
+import Menu from './Menu';
 function LichSu() {
     return (
         <div className='min-h-screen w-full '>
             <div className='content'>
-                <div id="menu" className="bg-gray-800 pb-2 pt-2 sticky top-0 z-50 ">
+                {/* <div id="menu" className="bg-gray-800 pb-2 pt-2 sticky top-0 z-50 ">
                     <nav className="flex justify-between text-white mt-5 main-nav">
                         <Link to="/" className="ml-7"><img src="../image/Black Grey Minimalist Modern Cinema Logo.png" alt="" className="h-10 w-10 rounded-full mb-4" /></Link>
                         <div className="relative group">
@@ -81,7 +81,8 @@ function LichSu() {
 
                         <a className="mr-10 text-2xl" href=""><i className="fa-solid fa-user"></i></a>
                     </nav>
-                </div>
+                </div> */}
+                <Menu />
                 <div className="text-white text-2xl block mr-[65%] mt-[4%] ">PHIM LỊCH SỬ</div>
                 <div id='noidung' className='bg-gray-500 min-h-screen w-full flex-center'>
                     <div id="kinhdi" className="mt-5 mx-auto w-3/4">

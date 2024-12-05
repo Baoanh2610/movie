@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from "react-router-dom";
-import Menu from './routes/Menu';
+//import Menu from './routes/Menu';
+import Menu from './Menu';
 import './Theloai.css'
 
 function BoHQ() {
@@ -82,6 +83,7 @@ function BoHQ() {
                         <a className="mr-10 text-2xl" href=""><i className="fa-solid fa-user"></i></a>
                     </nav>
                 </div> */}
+                <Menu />
                 <div className="text-white text-2xl block mr-[65%] mt-[4%] ">PHIM BỘ HÀN QUỐC</div>
                 <div id='noidung' className='bg-gray-500 min-h-screen w-full flex-center'>
                     <div id="hanhdong" className="mt-5 mx-auto w-3/4">
